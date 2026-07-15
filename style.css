@@ -1,0 +1,89 @@
+:root {
+    --primary: #B4E1EB;
+    --secondary: #95BDD7;
+    --dark: #78A4CB;
+    --accent: #F9E8A2;
+} 
+
+body {
+    color: #000000;
+    background: #ffff;
+    font-family: 'Unbounded';
+    font-weight: 300;
+}
+
+
+.headbar {
+    color: #ffff;
+    font-family: 'Unbounded';
+    background-color: #00b6f0;
+    font-weight: 400;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: auto;
+    font-size: 1.5rem;
+    height: 3rem;
+    padding-top: 0.3rem;
+}
+
+p {
+    font-size: 0.5rem;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+
+.unbounded {
+  font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.unbounded-thin {
+  font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+
+.basecontent {
+    text-align: center;
+    margin: 0% 10%;
+    background-color: aliceblue;
+}
+
+.bio {
+    float: left;
+    margin-right: 5%;
+    height: 25rem;
+    width: auto;
+}
+
+h3 {
+        font-weight: 300;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 12px;   
+}
+    .infobar p {
+        font-size: 8px;
+    }
+
+    .basecontent {
+        margin: 10px;
+    }
+    .bio {
+    height: 10rem;
+    width: auto;
+    }
+
+    .headbar {
+            height: 2rem;
+    }
+    .headbar p {
+        font-size: 1rem
+    }
+}
