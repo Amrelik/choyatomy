@@ -46,6 +46,10 @@ body {
     padding: 0.6rem 2rem;
     font-size: 1.5rem;
 }
+.btn-referral.btn-sm.mt-auto {
+    background-color: #44d0ff;
+    color: #ffffff;
+}
 
 /* Блок «Обо мне» */
 .about-section {
